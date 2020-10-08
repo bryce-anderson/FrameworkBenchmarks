@@ -6,6 +6,7 @@ version := finagleVersion
 
 libraryDependencies ++= Seq(
   "com.twitter" %% "finagle-http" % finagleVersion,
+  "com.twitter" %% "finagle-stats-core" % finagleVersion,
   "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.11.0"
 )
 
